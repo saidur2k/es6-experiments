@@ -6,6 +6,7 @@ This is my experiments in es6
 [![Code Coverage][coverage-badge]][coverage]
 [![MIT License][license-badge]][LICENSE]
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![david](https://david-dm.org/saidur2k/es6-experiments/dev-status.svg)](https://david-dm.org/saidur2k/es6-experiments/)
 
 ## Purpose
 Practical take on  important features of the next version of JavaScript, ES6 including: let, REST params, spread operator, destructuring, arrow functions, classes, collections, modules and more!
@@ -31,3 +32,4 @@ MIT
 [coverage]: https://codecov.io/github/saidur2k/es6-experiments
 [license-badge]: https://img.shields.io/npm/l/es6-experiments.svg?style=flat-square
 [license]: https://github.com/saidur2k/es6-experiments/blob/master/LICENSE
+[david]: https://david-dm.org/saidur2k/es6-experiments/dev-status.svg
