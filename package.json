@@ -13,12 +13,12 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --compilers js:babel-register --watch",
     "lint": "standard --verbose | snazzy",
-    "lint:watch": "nodemon --exec 'npm run lint --silent'",
+    "watch:lint": "nodemon --exec 'npm run lint --silent'",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "release": "semantic-release pre && npm publish && semantic-release post",
     "validate": "npm-run-all --parallel test lint build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "david": "./node_modules/.bin/david"
+    "david": "npm run node_modules/.bin/david"
   },
   "repository": {
     "type": "git",
@@ -62,7 +62,6 @@
     "json-loader": "0.5.4",
     "mocha": "3.2.0",
     "npm-run-all": "3.1.2",
-    "npm-watch": "0.1.7",
     "nyc": "10.0.0",
     "opt-cli": "1.5.1",
     "rimraf": "2.5.4",
